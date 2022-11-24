@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.formButton {
+  padding: 10px;
+  width: 150px;
+  background-color: transparent;
+  font-size: 16px;
+  border: 3px solid rgb(199, 24, 83);
+  border-radius: 25px;
+  color: rgb(199, 24, 83);     
+}
+
+.FormTitle {
+  color: rgb(199, 24, 83);
+  margin: -10px 0px;
+}
+
+.formInput {
+  padding: 20px;
+}
+
+.icon {
+  color: rgb(199, 24, 83);
+  position: absolute;
+  margin: -70px -120px;
+  position: absolute;
+  /* font-size: 22px; */
+  /* top: 35px; */
+}
+
+.errMsg{
+  color: red;
+  font-size: 10px;
+  margin: -40px 0px;
+  text-align: left;
+}
+
+/* .FormInput::placeholder {
+  color: rgb(199, 24, 83);
+}
+.FormInput::label {
+  color: rgb(199, 24, 83);
+} */
+
+.ExtraText{
+  font-size: 10px;
+  padding: 2px;
+  margin-top: 10px;
+  color: black;
+}
+
+.TextLink {
+  color: palevioletred;
+  transition: ease-in-out 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
